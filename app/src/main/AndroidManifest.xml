@@ -16,7 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".RulesActivity" />
-        <activity android:name=".AuthorsActivity"></activity>
+        <activity android:name=".AuthorsActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".NewGameActivity" />
+        <activity android:name=".StatisticsActivity"></activity>
     </application>
 
 </manifest>
