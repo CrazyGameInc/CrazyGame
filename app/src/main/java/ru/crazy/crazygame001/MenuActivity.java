@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class MenuActivity extends AppCompatActivity implements View.OnClickListener {
     // первый коммент
+    //выаываываывавыаыываыв
     Button btnAuthors;
     Button btnRules;
 
