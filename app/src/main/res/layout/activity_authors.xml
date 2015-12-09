@@ -13,11 +13,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Авторы"
+        android:text="@string/txtAuthors"
         android:id="@+id/textView"
         android:layout_alignWithParentIfMissing="false"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -27,33 +28,109 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Новиков Павел"
-            android:id="@+id/textView2"
-            android:textColor="#f51414" />
+            android:layout_marginBottom="20dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Серкова Мария"
-            android:id="@+id/textView3"
-            android:textColor="#e60d0d" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNamePavel"
+                android:id="@+id/textView2"
+                android:textColor="#000000"
+                android:textSize="20sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Бурлакова Валерия"
-            android:id="@+id/textView4"
-            android:textColor="#eb0d0d" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/emPavel"
+                android:id="@+id/tvEmPavel"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:autoLink="email"/>
+        </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Панков Юрий"
-            android:id="@+id/textView5"
-            android:textColor="#ed0f0f" />
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameMasha"
+                android:id="@+id/textView3"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/emMasha"
+                android:id="@+id/tvEmMasha"
+                android:textStyle="italic"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:autoLink="email"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameLera"
+                android:id="@+id/textView4"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/emLera"
+                android:id="@+id/tvEmLera"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:autoLink="email"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtNameUra"
+                android:id="@+id/textView5"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/emUra"
+                android:id="@+id/tvEmUra"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:autoLink="email"/>
+        </LinearLayout>
+
     </LinearLayout>
 
 </RelativeLayout>

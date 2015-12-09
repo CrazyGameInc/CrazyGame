@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CrazyGame001</string>
+    <string name="txtAuthors">Авторы</string>
+    <string name="txtNamePavel">Новиков Павел</string>
+    <string name="emPavel">E-mail</string>
+    <string name="emMasha">E-mail</string>
+    <string name="emLera">E-mail</string>
+    <string name="emUra">E-mail</string>
+    <string name="txtNameMasha">Серкова Мария</string>
+    <string name="txtNameLera">Бурлакова Валерия</string>
+    <string name="txtNameUra">Панков Юрий</string>
 </resources>
